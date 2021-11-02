@@ -1,0 +1,67 @@
+html {
+	min-height: 100%;
+}
+
+body {
+	font-family: "Poppins";
+	background-image: linear-gradient(to bottom right, gold, #892fb4);
+	background-repeat: no-repeat;
+	min-height: 100%;
+	margin: 0 25px;
+}
+
+nav::before {
+	content: "|";
+}
+
+nav::after {
+	content: "|";
+	margin-left: 150px;
+}
+
+#title {
+	display: flex;
+}
+
+ul {
+	margin: 0;
+}
+
+h1 {
+	font-size: 40px;
+	margin-left: 15px;
+}
+
+#logo {
+	width: 200px;
+}
+
+table {
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+
+th {
+	border-bottom: 2px solid black;
+	padding: 5px;
+	font-weight: 600;
+}
+
+th,
+td {
+	border-right: 2px solid black;
+	font-size: 20px;
+}
+
+td {
+	padding: 0 5px;
+}
+
+.number {
+	text-align: right;
+}
+
+#team {
+	width: 500px;
+	margin-top: 10px;
+}
